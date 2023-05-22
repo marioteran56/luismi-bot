@@ -22,16 +22,31 @@ El modelo se entrena con un optimizador **Adam** y una función de pérdida de *
 
 El modelo alcanzó a tener un loss de tan solo **1.7558** durante el último epoch de entrenamiento, el cual no es muy bueno, mas sin embargo, el modelo es capaz de generar texto con una coherencia aceptable si ajustamos la temperatura de la predicción.
 
-Por ejemplo si le damos una temperatura de **0.1** al modelo con la palabra **calienta**, este es capaz de generar texto como el siguiente (el cual es una canción real de Luis Miguel):
+Por ejemplo si le damos una temperatura de **0.1** al modelo con la palabra **amor**, este es capaz de generar texto como el siguiente que incluye **cuando calienta el sol** (lo cual es parte de una canción real de Luis Miguel):
 
 ```python
-print(complete_text("calienta", n_chars=50, temperature=0.1))
+print(complete_text("amor", n_chars=500, temperature=0.1))
 ```
 
 ```
-calienta el sol
+amor de tu piel
+se que se si te siento y el sol amor
+el sol como el sol a de tu pelo y yo se tu pero y yo se tu pelo yo se tu pero yo se tu pensar
+en la vida se a tu piel
+se como el sol
 cuando calienta el sol
-cuando calienta el 
+cuando calienta el sol
+cuando calienta el sol
+cuando calienta el sol
+cuando calienta el sol
+cuando calienta el sol
+cuando calienta el sol corazon"
+"si te siento y el sol al corazon"
+"si te siento y el sol como el sol
+cuando calienta el sol
+cuando calienta el sol
+cuando calienta el sol
+cuando ca
 ```
 
 Inclusive se hicieron algunas otras pruebas con distintas palabras, y el modelo es capaz de generar texto con una coherencia aceptable. Estas se pueden ver dentro del **notebook** de entrenamiento.
