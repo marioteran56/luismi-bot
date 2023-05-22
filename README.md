@@ -29,24 +29,24 @@ print(complete_text("amor", n_chars=500, temperature=0.1))
 ```
 
 ```
-amor de tu piel
-se que se si te siento y el sol amor
-el sol como el sol a de tu pelo y yo se tu pero y yo se tu pelo yo se tu pero yo se tu pensar
-en la vida se a tu piel
-se como el sol
+amor
+de la vida en la palabra si te se siento y en el corazon"
+"si te se siento y entre tu pelo y yo se tu pensar
+en tu pelo y te se si te soñe
+como si te soñe
+como el sol amor
+el sol amor
+de la vida en la pasado con las contigo
+y se al amor de la vida en la palabra si te siento y el sol como el sol
 cuando calienta el sol
 cuando calienta el sol
 cuando calienta el sol
 cuando calienta el sol
 cuando calienta el sol
 cuando calienta el sol
-cuando calienta el sol corazon"
-"si te siento y el sol al corazon"
-"si te siento y el sol como el sol
 cuando calienta el sol
 cuando calienta el sol
-cuando calienta el sol
-cuando ca
+cuando calienta el 
 ```
 
 Inclusive se hicieron algunas otras pruebas con distintas palabras, y el modelo es capaz de generar texto con una coherencia aceptable. Estas se pueden ver dentro del **notebook** de entrenamiento.
